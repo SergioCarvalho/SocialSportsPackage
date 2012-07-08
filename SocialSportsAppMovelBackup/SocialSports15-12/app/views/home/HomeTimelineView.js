@@ -1,0 +1,1 @@
+SocialSports.views.HomeTimeline = Ext.extend(Ext.Panel, {	//html: '<a href="#Home/about" class="menu-item"> About</a>',	html: 'Aqui vão aparecer as mensagens com interesse para o utilizador',	scroll: 'vertical',	styleHtmlContent: true,	style: 'background: #d8e2ef',});Ext.reg('HomeTimeline', SocialSports.views.HomeTimeline);
